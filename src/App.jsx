@@ -7,7 +7,6 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import PMotores from './components/P-motores';
 import PCortinas from './components/P-cortinas';
-import PTablillas from './components/P-tablillas';
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
           {/* Rutas para las páginas de productos */}
         <Route path="/products/motores" element={<PMotores />} />
         <Route path="/products/cortinas" element={<PCortinas />} />
-        <Route path="/products/tablillas" element={<PTablillas />} />
         </Routes>
         <Footer />
       </Router>

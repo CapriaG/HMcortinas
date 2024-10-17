@@ -31,7 +31,7 @@ const Contact = () => {
             });
 
             if (response.ok) {
-                alert('NivelCero ha recibido tu mensaje, en breve un asesor te contactará');
+                alert('MH ha recibido tu mensaje, en breve un asesor te contactará');
                 setFormData({ name: '', email: '', message: '' });
             } else {
                 alert('Hubo un problema al enviar el mensaje. Por favor, intenta nuevamente.');

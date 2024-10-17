@@ -36,7 +36,7 @@ const AboutUs = () => {
           <h2 className="section-title">Nuestra Misión</h2>
           <i className="fas fa-arrow-up arrow-up"></i>
           <p className="section-text">
-            En HM, nos dedicamos a proveer cortinas metálicas de alta calidad que garantizan la seguridad y elegancia en cada espacio.
+            En MH, nos dedicamos a proveer cortinas metálicas de alta calidad que garantizan la seguridad y elegancia en cada espacio.
           </p>
         </div>
         <div className="text-block">
@@ -93,7 +93,7 @@ const AboutUs = () => {
         <div className="container my-5">
           <h2 className="commitment-title text-center">Nuestro Compromiso con el Cliente</h2>
           <p className="commitment-text text-center">
-            En HM, nos esforzamos por ofrecer no solo productos de alta calidad, sino también un servicio excepcional para nuestros clientes. 
+            En MH, nos esforzamos por ofrecer no solo productos de alta calidad, sino también un servicio excepcional para nuestros clientes. 
             Nuestro compromiso es garantizar que cada uno de nuestros proyectos cumpla con los más altos estándares de satisfacción, 
             brindando soluciones seguras y confiables para hogares y negocios.
           </p>

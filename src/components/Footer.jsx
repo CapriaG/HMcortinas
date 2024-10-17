@@ -25,12 +25,12 @@ const Footer = () => {
 
                     {/* Columna de información relevante */}
                     <div className="col-md-4 d-flex flex-column align-items-center align-items-md-end mb-3">
-                        <p className="footer-info">Teléfono: 11-6561-5460</p>
+                        <p className="footer-info">Teléfono: 1159580880</p>
                     </div>
                 </div>
             </div>
             <div className="footer-bottom text-center">
-                <p>&copy; {new Date().getFullYear()} HM Cortinas Metalicas Todos los derechos reservados.</p>
+                <p>&copy; {new Date().getFullYear()} MH Cortinas Metalicas Todos los derechos reservados.</p>
             </div>
         </footer>
     );
