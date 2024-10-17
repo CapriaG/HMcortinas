@@ -23,7 +23,7 @@ const Products = () => {
 
           <div className="col-md-4">
               <div className="product-image-wrapper">
-                <img src={logo} alt="Aceites" className="product-image" />
+                <img src={logo} alt="Aceites" className="product-image-logo" />
               </div>
           </div>
 
