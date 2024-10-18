@@ -541,33 +541,43 @@ body {
 
 .cta-section {
   position: relative;
-  padding: 100px 0; /* Espaciado vertical */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
   text-align: center;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/backgroundH2.png') no-repeat center center/cover;
-  height: 80vh;
+  min-height: 80vh;
   border-top: 3px solid #f5bf1c;
+  width: 100%;
+  overflow: hidden;
 }
 
 .cta-background {
   position: relative;
-  z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+  z-index: 1;
 }
 
 .cta-image-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: center; /* Centra la imagen verticalmente */
   align-items: center;
-  height: 500px;
+  height: 100%; /* Ocupa todo el contenedor */
+  width: 100%;
+  z-index: 1;
 }
 
 .cta-image {
+  max-width: 500px;
   width: 100%;
-  max-width: 600px;
+  object-fit: contain;
   height: auto;
+  z-index: 1;
 }
 
 .cta-btn {
-  display: inline-block;
   padding: 10px 20px;
   background-color: #f5bf1c;
   color: #000;
@@ -575,7 +585,8 @@ body {
   border-radius: 4px;
   font-weight: bold;
   transition: background-color 0.3s ease-in-out;
-  margin-top: 20px;
+  margin-top: auto;
+  z-index: 2;
 }
 
 .cta-btn:hover {
