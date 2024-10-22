@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
-    const formspreeEndpoint = 'https://formspree.io/f/';
+    const formspreeEndpoint = 'https://formspree.io/f/mbljjblv';
     const [formData, setFormData] = useState({
         name: '',
         email: '',
