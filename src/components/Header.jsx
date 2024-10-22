@@ -49,6 +49,9 @@ const Header = () => {
             <a href="https://wa.me/+5491159580880" className="social-icon" target='_blank' rel="noopener noreferrer">
               <i className="fab fa-whatsapp"></i>
             </a>
+            <a href="https://www.instagram.com/mh.cortinas/" className="social-icon" target='_blank' rel="noopener noreferrer">
+                  <i className="fab fa-instagram"></i>
+                </a>
           </div>
         </div>
 
@@ -87,6 +90,9 @@ const Header = () => {
               <div className="social-icons d-flex justify-content-center mt-4">
                 <a href="https://wa.me/+5491159580880" className="social-icon" target='_blank' rel="noopener noreferrer">
                   <i className="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/mh.cortinas/" className="social-icon" target='_blank' rel="noopener noreferrer">
+                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
             </nav>
